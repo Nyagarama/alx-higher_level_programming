@@ -1,2 +1,2 @@
 #!/bin/bash
-'{}'.format
+python3 "$PYFILE"
