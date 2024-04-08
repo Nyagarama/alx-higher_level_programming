@@ -4,6 +4,6 @@ const myMotto = [
   'Python is cool',
   'JavaScript is amazing'
 ];
-mySlogan.forEach(myMotto => {
+myMotto.forEach(myMotto => {
   console.log(myMotto);
 });
