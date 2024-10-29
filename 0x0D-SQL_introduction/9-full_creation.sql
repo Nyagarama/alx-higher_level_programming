@@ -4,7 +4,6 @@
 --					1) id INT
 --					2) name VARCHAR(256)
 --					3) score INT
-
-CREATE TABLE IF NOT EXITS second_table (id INT, name VARCHAR(256), score INT);
-INSERT INTO second_table (id, name, score) 
+CREATE TABLE IF NOT EXITS hbtn_test_db_9.second_table (id INT, name VARCHAR(256), score INT);
+INSERT INTO hbtn_test_db_9.second_table (id, name, score) 
 VALUES (1, 'John', 10),(2, 'Alex', 3),(3, 'Bob', 14),(4, 'George', 8);
